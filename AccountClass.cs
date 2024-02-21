@@ -97,7 +97,7 @@ namespace UserAccountManager
             }
             else
             {
-                correctLength = true;
+                correctLength = false;
                 Console.WriteLine("Password must be atleast 8 character in length.");
             }
 
